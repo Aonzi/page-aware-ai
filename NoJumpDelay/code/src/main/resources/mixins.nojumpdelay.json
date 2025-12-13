@@ -1,0 +1,9 @@
+{
+  "required": true,
+  "package": "me.mitfox.nojumpdelay.mixins",
+  "refmap": "mixins.nojumpdelay.refmap.json",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "MixinEntityLivingBase"
+  ]
+}

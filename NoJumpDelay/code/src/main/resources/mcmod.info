@@ -1,0 +1,16 @@
+[
+{
+  "modid": "nojumpdelay",
+  "name": "NoJumpDelay Mod",
+  "description": "Commands: /nojumpdelay",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "https://www.youtube.com/@mitfox.",
+  "updateUrl": "",
+  "authorList": ["MitFox"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
