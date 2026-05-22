@@ -1,0 +1,45 @@
+{
+   "action": {
+      "default_icon": {
+         "128": "icon128.plasmo.3c1ed2d2.png",
+         "16": "icon16.plasmo.6c567d50.png",
+         "32": "icon32.plasmo.76b92899.png",
+         "48": "icon48.plasmo.aced7582.png",
+         "64": "icon64.plasmo.8bb5e6e0.png"
+      }
+   },
+   "author": "Erzhan Torokulov \u003Cerzhan@pageg.pt>",
+   "background": {
+      "service_worker": "static/background/index.js"
+   },
+   "content_scripts": [ {
+      "css": [  ],
+      "js": [ "content.883ade9e.js" ],
+      "matches": [ "\u003Call_urls>" ]
+   } ],
+   "description": "No more copy-pasting to ChatGPT! Effortless conversations, context awareness, privacy first. Utilizes your own openai API key.",
+   "icons": {
+      "128": "icon128.plasmo.3c1ed2d2.png",
+      "16": "icon16.plasmo.6c567d50.png",
+      "32": "icon32.plasmo.76b92899.png",
+      "48": "icon48.plasmo.aced7582.png",
+      "64": "icon64.plasmo.8bb5e6e0.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAgiv2p9fVnIObDR+sFWYvTWj8sOP4FB10se/furrJhDj2DCu+4mPLGSsbrP1xsR02gZNSCc1BYFqSSE0BSMKhh77nluAtin3XmB/H76WGMaY2fzh39OpmabQohPlOYRkNnZzUHrv33aVSUo4TsqOT3yDzYgABpXqunEVUeBkJpeqi2sza1TmRebYaPiYs2zGqkoPutxrykpNqKsHkHNksUpaHV6VSHaYKN4ycaPP+lXE5exVIUzAwq3Mtoz0TwpEFFazXVoZFFPUDtSgEds1PMtlzOGdWzT18f4+93UFji9kHWCtnjWuxIeP0WuSOQt7JOwcIW/TMA8d6dWpZikBgowIDAQAB",
+   "manifest_version": 3,
+   "name": "PageGPT: Your context-aware AI chatbot",
+   "options_ui": {
+      "open_in_tab": true,
+      "page": "options.html"
+   },
+   "permissions": [ "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.5.1",
+   "web_accessible_resources": [ {
+      "matches": [ "\u003Call_urls>" ],
+      "resources": [ "*.html" ]
+   }, {
+      "matches": [ "\u003Call_urls>" ],
+      "resources": [ "content.e571c45a.css", "content.58e017f8.png", "content.fc5bffe4.png" ]
+   } ]
+}
